@@ -17,20 +17,20 @@ const AllService = () => {
         },
         {
             _id:3,
-            name:'Digital marketing',
-            img:'https://www.salford.ac.uk/sites/default/files/2021-07/digital%20marketing.png',
+            name:'Artificial intelligence',
+            img:'https://www.aljazeera.com/wp-content/uploads/2023/01/GettyImages-1215125159.jpg?resize=1800%2C1800',
             details:'We provide pixel perfect website with reasonable price.'
         },
         {
             _id:4,
             name:'Graphics design',
-            img:'https://d1j8r0kxyu9tj8.cloudfront.net/images/1557567429825mQH8PotXDSI7.jpg',
+            img:'https://cosmosgroup.sgp1.cdn.digitaloceanspaces.com/news/1071218_Graphic-Design.jpg',
             details:'We provide pixel perfect website with reasonable price.'
         },
         {
             _id:5,
-            name:'App development',
-            img:'https://reliasoftware.com/static/9ce8aa204a21e69716018fee472b042c/the-complete-guide-to-mobile-app-development-2021.png',
+            name:'SOFTWARE TESTING',
+            img:'https://devops.com/wp-content/uploads/2020/04/Software-Testing-1280x720.jpg',
             details:'We provide pixel perfect website with reasonable price.'
         },
         {
