@@ -4,10 +4,10 @@ import logo from '../../../Assets/Logo without bg.png'
 const Header = () => {
 
     const nav = <>
-        <li><p className=' text-[20px] font-semibold'>About</p></li>
-        <li><p className=' text-[20px] font-semibold'>Service</p></li>
-        <li><p className=' text-[20px] font-semibold'>Blog</p></li>
-        <li><p className=' text-[20px] font-semibold'>Contact Us</p></li>
+        <li><a href='#aboutSection' className=' text-[20px] font-semibold'>About</a></li>
+        <li><a href='#serviceSection' className=' text-[20px] font-semibold'>Service</a></li>
+        <li><a href='#blogSection' className=' text-[20px] font-semibold'>Blog</a></li>
+        <li><a href='#contactSection' className=' text-[20px] font-semibold'>Contact Us</a></li>
     </>
 
     return (

@@ -1,4 +1,5 @@
 import React from 'react';
+import About from '../About';
 import Blogs from '../Blogs';
 import Contact from '../Contact';
 import Farmer from '../Farmer';
@@ -16,6 +17,7 @@ const Home = () => {
             <Robot></Robot>
             <Service></Service>
             <Blogs></Blogs>
+            <About></About>
             <Contact></Contact>
         </div>
     );

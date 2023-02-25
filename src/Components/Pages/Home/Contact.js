@@ -25,7 +25,7 @@ const Contact = () => {
     }
     
     return (
-        <div>
+        <div id='contactSection'>
             <h2 className='text-center text-3xl my-3 py-3 font-semibold text-secondary'>Contact form</h2>
             <form ref={form} onSubmit={handleContactForm} className='w-75  mb-5 mx-auto '>
                 
