@@ -10,7 +10,7 @@ const AllService = () => {
         .catch(err=>console.log(err))
     },[])
     return (
-        <div>
+        <div className='w-[90%] mx-auto' >
             <h1 className='text-5xl text-center font-semibold mb-10 text-blue-700'>Our All Services</h1>
           <div className='grid lg:grid-cols-3 md:grid-cols-2 gap-[20px] sm:grid-cols-1'>
           {

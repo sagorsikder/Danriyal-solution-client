@@ -12,7 +12,7 @@ const Blogs = () => {
         .catch(err=>console.log(err))
     },[])
     return (
-        <div className='mt-[100px]' id='blogSection'>
+        <div  className='w-[90%] mx-auto mt-[100px]' id='blogSection'>
             
             <h1 className='text-5xl text-center mb-10 font-semibold text-blue-700 mt-10'>Blogs</h1>
             <div className='grid lg:grid-cols-2 md:grid-cols-2 gap-[20px] sm:grid-cols-1'>

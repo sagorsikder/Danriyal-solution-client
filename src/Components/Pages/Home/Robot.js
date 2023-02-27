@@ -7,8 +7,8 @@ const Robot = () => {
         <div className="hero-content justify-between flex-col lg:flex-row">
           <img src={robot} alt='Robot' className="max-w-sm rounded-lg shadow-2xl" />
           <div className=''>
-            <p className='text-[20px] font-semibold'>Benefitting others through</p>
-            <p className='text-[20px] font-semibold'> the use of technology  </p>
+            <p className='lg:text-[30px]  font-semibold'>Benefitting others through</p>
+            <p className='lg:text-[30px]  font-semibold'> the use of technology  </p>
           </div>
         </div>
       </div>

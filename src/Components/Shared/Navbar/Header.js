@@ -5,14 +5,14 @@ import logo from '../../../Assets/Logo without bg.png'
 const Header = () => {
 
     const nav = <>
-        <li><a href='#aboutSection' className=' text-[20px] font-semibold'>About</a></li>
-        <li><a href='#serviceSection' className=' text-[20px] font-semibold'>Service</a></li>
-        <li><a href='#blogSection' className=' text-[20px] font-semibold'>Blog</a></li>
-        <li><a href='#contactSection' className=' text-[20px] font-semibold'>Contact Us</a></li>
+        <li><a href='#aboutSection' className=' text-[20px]  font-semibold'>About</a></li>
+        <li><a href='#serviceSection' className=' text-[20px]  font-semibold'>Service</a></li>
+        <li><a href='#blogSection' className=' text-[20px]  font-semibold'>Blog</a></li>
+        <li><a href='#contactSection' className=' text-[20px]  font-semibold'>Contact Us</a></li>
     </>
 
     return (
-        <div className="navbar">
+        <div className="navbar w-[90%] mx-auto">
   <div className="navbar-start">
     <div className="dropdown">
       <label tabIndex={0} className="btn btn-ghost lg:hidden">

@@ -4,7 +4,7 @@ const ServicePart = ({services}) => {
     const {name,details,img} = services;
     return (
         <div className="card  bg-base-100 shadow-xl">
-  <figure><img className='max-h-[215px] w-full' src={img} alt="service" /></figure>
+  <figure><img className='h-[215px] w-full' src={img} alt="service" /></figure>
   <div className="card-body">
     <h2 className="card-title">{name}</h2>
     <p>{details}</p>
