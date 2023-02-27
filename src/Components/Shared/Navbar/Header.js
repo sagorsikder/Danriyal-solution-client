@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import logo from '../../../Assets/Logo without bg.png'
 
 const Header = () => {
@@ -23,7 +24,7 @@ const Header = () => {
       </ul>
     </div>
     <div className='flex'>
-    <img className='w-[50px] h-[50px]' src={logo} alt="Logo" />
+    <Link to='/'><img className='w-[50px] h-[50px]' src={logo} alt="Logo" /></Link>
     <div className='ms-3'>
         <h1 className=' text-[16px]  font-semibold'>Danriyal</h1>
         <h1 className=' text-[16px] font-semibold'>Solutions</h1>
