@@ -1,14 +1,14 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import {Link} from 'react-scroll'
 import logo from '../../../Assets/Logo without bg.png'
 
 const Header = () => {
 
     const nav = <>
-        <li><a href='#aboutSection' className=' text-[20px]  font-semibold'>About</a></li>
-        <li><a href='#serviceSection' className=' text-[20px]  font-semibold'>Service</a></li>
-        <li><a href='#blogSection' className=' text-[20px]  font-semibold'>Blog</a></li>
-        <li><a href='#contactSection' className=' text-[20px]  font-semibold'>Contact Us</a></li>
+        <li><Link  to="aboutSection" spy={true} smooth={true} offset={-50} duration={700} className=' text-[20px]  font-semibold'>About</Link></li>
+        <li><Link  to="serviceSection" spy={true} smooth={true} offset={-50} duration={700} className=' text-[20px]  font-semibold'>Service</Link></li>
+        <li><Link  to="blogSection" spy={true} smooth={true} offset={-50} duration={700} className=' text-[20px]  font-semibold'>Blog</Link></li>
+        <li><Link  to="contactSection" spy={true} smooth={true} offset={-50} duration={700} className=' text-[20px]  font-semibold'>Contact Us</Link></li>
     </>
 
     return (
