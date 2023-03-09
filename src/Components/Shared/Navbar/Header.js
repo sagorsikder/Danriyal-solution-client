@@ -12,6 +12,9 @@ const Header = () => {
     </>
 
     return (
+      
+      // Header section here
+
         <div className="navbar w-[90%] mx-auto">
   <div className="navbar-start">
     <div className="dropdown">

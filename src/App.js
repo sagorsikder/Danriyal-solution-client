@@ -4,6 +4,9 @@ import router from './Components/Routes/Routes';
 
 function App() {
   return (
+
+    // All route setup here
+    
   <div>
     <RouterProvider router={router}>
 

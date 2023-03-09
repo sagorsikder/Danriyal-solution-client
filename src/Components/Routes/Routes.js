@@ -4,6 +4,8 @@ import AllBlogs from "../Pages/AllBlogs/AllBlogs";
 import AllService from "../Pages/AllService/AllService";
 import Home from "../Pages/Home/Home/Home";
 
+// All route setup here
+
 const router = createBrowserRouter(
     [
         {

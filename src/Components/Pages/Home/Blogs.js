@@ -12,6 +12,9 @@ const Blogs = () => {
         .catch(err=>console.log(err))
     },[])
     return (
+
+        // Blog section here
+
         <div  className='w-[90%] mx-auto mt-[100px]' id='blogSection'>
             
             <h1 className='text-5xl text-center mb-10 font-semibold text-blue-700 mt-10'>Blogs</h1>
@@ -20,7 +23,7 @@ const Blogs = () => {
                 blogs.map(blog=><Blogpart key={blog._id} blogs={blog}></Blogpart>)
             }
           </div>
-          <div className='flex justify-center mt-10'><Link to='/allblogs' className='btn btn-primary '>More blogs</Link></div>
+          <div className='flex justify-center mt-10'><Link to='/allblogs' className='btn bg-[#61ce70] '>More blogs</Link></div>
         </div>
     );
 };

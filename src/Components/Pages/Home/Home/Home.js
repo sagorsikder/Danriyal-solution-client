@@ -10,6 +10,9 @@ import TextBox from '../TextBox';
 
 const Home = () => {
     return (
+        
+        // Home page organized here
+
         <div>
             <Image></Image>
             <TextBox></TextBox>
