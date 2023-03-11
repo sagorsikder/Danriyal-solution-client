@@ -16,7 +16,7 @@ const Service = () => {
         // Service part here
 
         <div className='w-[90%] mx-auto' id='serviceSection'>
-            <h1 className='text-5xl text-center mb-10 font-semibold text-blue-700'>Our Services</h1>
+            <h1 className='text-5xl text-center mb-10 font-semibold text-red-500'>Our Services</h1>
           <div className='grid lg:grid-cols-3 md:grid-cols-2 gap-[20px] sm:grid-cols-1'>
           {
                 services.map(service=><ServicePart key={service._id} services={service}></ServicePart>)
