@@ -1,5 +1,6 @@
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
+import contact from '../../../Assets/neural-pathways.jpg'
 
 const Contact = () => {
 
@@ -29,6 +30,7 @@ const Contact = () => {
         // Contact section here
          
         <div  className='w-[90%] mx-auto mt-[100px]' id='contactSection'>
+            <img src={contact}/>
             <h2 className='text-center text-red-500 text-5xl my-3 py-3 font-semibold'>Contact form</h2>
             <form ref={form} onSubmit={handleContactForm} className='w-75  mb-5 mx-auto '>
                 
