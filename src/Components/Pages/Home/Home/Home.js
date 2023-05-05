@@ -7,6 +7,7 @@ import Image from '../Image';
 import Robot from '../Robot';
 import Service from '../Service';
 import TextBox from '../TextBox';
+import Information from '../Information';
 
 const Home = () => {
     return (
@@ -18,6 +19,7 @@ const Home = () => {
             <TextBox></TextBox>
             <Farmer></Farmer>
             <Robot></Robot>
+            <Information></Information>
             <Service></Service>
             <Blogs></Blogs>
             <AboutUs></AboutUs>

@@ -13,7 +13,7 @@ const AllBlogs = () => {
         // All blogs section here
         
         <div className='w-[90%] mx-auto' >
-            <h1 className='text-5xl text-center mb-10 font-semibold text-blue-700 mt-10'>Blogs</h1>
+            <h1 className='text-5xl text-center mb-10 font-semibold text-blue-700 mt-10'>Articles</h1>
             <div className='grid lg:grid-cols-2 md:grid-cols-2 gap-[20px] sm:grid-cols-1'>
           {
                 blogs.map(blog=><Blogpart key={blog._id} blogs={blog}></Blogpart>)
